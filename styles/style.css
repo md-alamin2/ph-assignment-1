@@ -1,0 +1,108 @@
+/* font Style */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+/* end font style */
+*{
+    margin: 0;
+}
+
+/* header style */
+body{
+    background-color: #F1F1F3;
+}
+.header{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+/* navbar style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+}
+.logo{
+    font-size: 32px;
+}
+.singin-btn{
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* hero section */
+.hero{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    /* gap: 64px; */
+}
+
+.hero-logo{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    margin: 117px 0 16px 60px;
+}
+.hero-title{
+    font-size: 56px;
+    margin: 0 0 24px 60px;
+}
+
+.hero-btn{
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 0 117px 60px;
+    
+}
+.hero-img{
+    margin: 80px 60px;
+}
