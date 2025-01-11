@@ -57,12 +57,18 @@ body{
     padding: 15px 30px;
     font-size: 18px;
 }
+.singin-btn:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
 
 /* hero section */
 .hero{
     background-color: #C6E4D6;
     border-radius: 24px;
     display: flex;
+}
+.hero:hover{
+    background-color: rgb(129, 180, 156);
 }
 
 .hero-logo{
@@ -82,8 +88,10 @@ body{
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
-    margin: 0 0 117px 60px;
-    
+    margin: 0 0 117px 60px; 
+}
+.hero-btn:hover{
+    background-color: rgb(0, 92, 69);
 }
 .hero-img{
     margin: 80px 60px;
@@ -131,6 +139,9 @@ body{
     padding: 32px;
     border-radius: 16px;
 }
+.vision-card-1:hover{
+    background-color: rgba(84, 143, 245, 0.562);
+}
 .vision-card-btn1{
     background-color: rgba(84, 144, 245, 1);
     color: white;
@@ -140,11 +151,17 @@ body{
     border-radius: 8px;
     margin-top: 42px;
 }
+.vision-card-btn1:hover{
+    background-color: rgb(57, 101, 177);;
+}
 
 .vision-card-2{
     background-color: rgba(198, 228, 214, 1);
     padding: 32px;
     border-radius: 16px;
+}
+.vision-card-2:hover{
+    background-color: rgb(129, 180, 156);
 }
 .vision-card-btn2{
     background-color: rgba(9, 161, 92, 1);
@@ -155,11 +172,17 @@ body{
     border-radius: 8px;
     margin-top: 24px;
 }
+.vision-card-btn2:hover{
+    background-color: rgb(4, 134, 76);
+}
 
 .vision-card-3{
     background-color: rgba(247, 235, 207, 1);
     padding: 32px;
     border-radius: 16px;
+}
+.vision-card-3:hover{
+    background-color: rgb(235, 219, 181);
 }
 .vision-card-btn3{
     background-color: rgba(255, 194, 57, 1);
@@ -169,6 +192,9 @@ body{
     border: none;
     border-radius: 8px;
     margin-top: 24px;
+}
+.vision-card-btn3:hover{
+    background-color: rgb(235, 169, 17);
 }
 
 /* chief-adviser styles */
@@ -245,6 +271,9 @@ body{
     padding: 13px 26px;
     margin-bottom: 56px;
 }
+.recent-news-card-btn:hover{
+    background-color: rgb(0, 92, 69);
+}
 
 
 .recent-news-card-container2{
@@ -280,6 +309,9 @@ body{
     padding: 13px 26px;
     margin: 0 0 56px 48px;
 }
+.recent-news-card-btn2:hover{
+    background-color: rgb(0, 92, 69);
+}
 
 /* Donate section style */
 .donate{
@@ -297,21 +329,23 @@ body{
     text-align: center;
     margin-bottom: 32px;
 }
-.donate-ammount-container{
+.donate-amount-container{
     list-style: none;
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-bottom: 32px;
 }
-.donate-ammount{
+.donate-amount{
     font-size: 40px;
     padding: 40px;
     background-color: white;
     border-radius: 16px;
-
 }
-.donate-ammount-custom{
+.donate-amount:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donate-amount-custom{
     display: block;
     font-size: 20px;
     background-color: white;
@@ -321,10 +355,10 @@ body{
     text-align: center;
     margin: 0 0 0 144px;
 }
-.donate-ammount-custom::placeholder{
+.donate-amount-custom::placeholder{
     text-align: center;
 }
-.donate-ammount-btn{
+.donate-amount-btn{
     color: white;
     background-color: rgba(0, 106, 80, 1);
     border: none;
@@ -332,6 +366,11 @@ body{
     padding: 17px 34px;
     margin: 32px 0 0 585px;
 }
+.donate-amount-btn:hover{
+    background-color: rgb(0, 92, 69);
+}
+
+
 
 /* Newsletter section style */
 
@@ -340,6 +379,9 @@ body{
     border-radius: 24px;
     text-align: center;
     margin-top: 80px;
+}
+.newslatter:hover{
+    background-color: rgb(129, 180, 156);
 }
 .newslatter-title{
     font-size: 40px;
@@ -371,7 +413,9 @@ body{
     border-radius: 0 16px 16px 0;
     padding: 17px 34px;
     margin: 0 ;
-
+}
+.newslatter-btn:hover{
+    background-color: rgb(0, 92, 69);
 }
 .newslatter-warning{
     color: rgba(14, 14, 14, 0.7);
